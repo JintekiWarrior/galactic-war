@@ -1,0 +1,7 @@
+.space-element {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 1px;
+}
