@@ -6,8 +6,12 @@ body {
 
 .space-element {
   display: inline-block;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
   border: 1px solid black;
   margin: 1px;
+}
+
+.hero {
+  background-color: aquamarine;
 }

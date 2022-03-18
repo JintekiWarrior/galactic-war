@@ -15,7 +15,6 @@ const gameBoard = function() {
       const space = $("<div>")
       space.attr('id', `space-${spaceId}`)
       space.addClass("space-element")
-      space.text("test")
   
       rowElement.append(space)
   
@@ -26,10 +25,17 @@ const gameBoard = function() {
 
 gameBoard()
 
-const start = $("#space-95")
-const charOne = $("<img />", {
-  src: 'images/knight.jpg'
-})
-start.append(charOne)
+const moveGamePiece = function(gamePiece) {
+  gamePiece.click(function() {
+    $(this).attr('id')
+  })
+}
+
+const hero = $("#space-95")
+hero.addClass('hero')
+
+moveGamePiece(hero)
+
+
 
 
