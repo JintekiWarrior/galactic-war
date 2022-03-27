@@ -1,0 +1,22 @@
+{
+  "name": "galactic-war",
+  "version": "1.0.0",
+  "description": "A science fiction rpg game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JintekiWarrior/galactic-war.git"
+  },
+  "author": "Moe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JintekiWarrior/galactic-war/issues"
+  },
+  "homepage": "https://github.com/JintekiWarrior/galactic-war#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
