@@ -25,16 +25,26 @@ const gameBoard = function() {
 
 gameBoard()
 
-const moveGamePiece = function(gamePiece) {
-  gamePiece.click(function() {
-    $(this).attr('id')
-  })
+const moveGamePiece = function(selected) {
+  const selectedId = selected.id
+  $(selected).toggle(
+    function () {
+      console.log("clicked yellow")
+      $(this).css("borderColor", "yellow")
+    },
+    function () {
+      console.log("clicked black")
+      $(this).css("borderColor", "black")
+    }
+  )
 }
 
 const hero = $("#space-95")
 hero.addClass('hero')
+$(".space-element").click(function(event) {
+  moveGamePiece(event.target)
+})
 
-moveGamePiece(hero)
 
 
 
